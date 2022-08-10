@@ -1,11 +1,11 @@
 console.time("Load time");
 
-import { Parameters } from "./parameters.js";
-import { PlayerCard } from "./playerCard.js";
-import { SongCard } from "./songCard.js";
-import { UI } from "./ui.js";
-import { Plugins } from "./plugins.js";
-import { Setup } from "./setup.js";
+import { Parameters } from "./parameters";
+import { PlayerCard } from "./playerCard";
+import { SongCard } from "./songCard";
+import { UI } from "./ui";
+import { Plugins } from "./plugins";
+import { Setup } from "./setup";
 
 class Init {
 

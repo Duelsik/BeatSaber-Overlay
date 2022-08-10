@@ -1,5 +1,5 @@
-import { SongCard } from "./songCard.js";
-import { PlayerCard } from "./playerCard.js";
+import { SongCard } from "./songCard";
+import { PlayerCard } from "./playerCard";
 
 export class DataPuller {
 

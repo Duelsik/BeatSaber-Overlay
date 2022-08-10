@@ -1,9 +1,9 @@
-import { GlobalVariable } from "./global.js";
-import { BSPlus } from "./BSPlus.js";
-import { HTTPStatus } from "./HTTPStatus.js";
-import { DataPuller } from "./dataPuller.js";
-import { SongCard } from "./songCard.js";
-import { PlayerCard } from "./playerCard.js";
+import { GlobalVariable } from "./global";
+import { BSPlus } from "./BSPlus";
+import { HTTPStatus } from "./HTTPStatus";
+import { DataPuller } from "./dataPuller";
+import { SongCard } from "./songCard";
+import { PlayerCard } from "./playerCard";
 
 export class Plugins {
 

@@ -1,7 +1,7 @@
-import { GlobalVariable } from "./global.js";
-import { PlayerCard } from "./playerCard.js";
-import { SongCard } from "./songCard.js";
-import { Plugins } from "./plugins.js";
+import { GlobalVariable } from "./global";
+import { PlayerCard } from "./playerCard";
+import { SongCard } from "./songCard";
+import { Plugins } from "./plugins";
 
 export class Parameters {
 

@@ -1,5 +1,5 @@
-import { GlobalVariable } from "./global.js";
-import { Tools } from "./tools.js";
+import { GlobalVariable } from "./global";
+import { Tools } from "./tools";
 
 export class ScoreSaber {
 

@@ -1,6 +1,6 @@
-import { GlobalVariable } from "./global.js";
-import { Template } from "./template.js";
-import { Tools } from "./tools.js";
+import { GlobalVariable } from "./global";
+import { Template } from "./template";
+import { Tools } from "./tools";
 
 export class SongCard {
 
@@ -18,7 +18,7 @@ export class SongCard {
     ////////////////////////
     // PROTECTED VARIABLE //
     ////////////////////////
-    protected skinUrl: string = "./skins/songCard/";
+    protected skinUrl: string = "/skins/songCard/";
 
     /////////////////////
     // PUBLIC VARIABLE //

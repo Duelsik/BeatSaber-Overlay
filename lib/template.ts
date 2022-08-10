@@ -5,16 +5,16 @@ export class Template {
     /////////////////////
     public loadFile(skinPath: string, skinFiles: string[], classCall: string): Promise<any> {
         return new Promise(resolve => {
-            $(`link[rel=stylesheet][href*="./skins/${classCall}/"]`).remove();
-            $(`script[src*="./skins/${classCall}/"]`).remove();
+            $(`link[rel=stylesheet][href*="/skins/${classCall}/"]`).remove();
+            $(`script[src*="/skins/${classCall}/"]`).remove();
 
             for (let i = 0; i < skinFiles.length; i++) {
                 if (skinFiles[i] == "style.css") {
                     $("head").append(`<link rel="stylesheet" href="${skinPath}${skinFiles[i]}" type="text/css" />`);
                 }
                 
-                if (skinFiles[i] == "script.js") {
-                    $("head").append(`<script type="text/javascript" src="${skinPath}${skinFiles[i]}"></script>`);
+                if (skinFiles[i] == "script") {
+                    $("head").append(`<script type="text/javascript" src="${skinPath}${skinFiles[i]}.js"></script>`);
                 }
 
                 if (

@@ -5,12 +5,19 @@
     "main": "init.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "tsc --build"
+        "build": "tsc --build",
+        "dev": "concurrently 'serve .' 'tsc --build --watch'"
     },
     "author": "Hyldra Zolxy",
     "license": "ISC",
     "type": "module",
     "devDependencies": {
-        "@types/jquery": "^3.5.14"
+        "@types/jquery": "3.5.14"
+    },
+    "dependencies": {
+        "@tsconfig/esm": "1.0.2",
+        "concurrently": "7.3.0",
+        "serve": "14.0.1",
+        "typescript": "4.7.4"
     }
 }

@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/build/:script", "destination": "/build/:script.js" }
+  ]
+}

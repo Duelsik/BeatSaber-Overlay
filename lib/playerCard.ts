@@ -1,7 +1,7 @@
-import { GlobalVariable } from "./global.js";
-import { Template } from "./template.js";
-import { ScoreSaber } from "./scoreSaber.js";
-import { SongCard } from "./songCard.js";
+import { GlobalVariable } from "./global";
+import { Template } from "./template";
+import { ScoreSaber } from "./scoreSaber";
+import { SongCard } from "./songCard";
 
 export class PlayerCard {
 
@@ -20,7 +20,7 @@ export class PlayerCard {
     ////////////////////////
     // PROTECTED VARIABLE //
     ////////////////////////
-    protected skinUrl: string = "./skins/playerCard/";
+    protected skinUrl: string = "/skins/playerCard/";
 
     /////////////////////
     // PUBLIC VARIABLE //

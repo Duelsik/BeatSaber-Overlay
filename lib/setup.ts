@@ -1,9 +1,9 @@
-import { GlobalVariable } from "./global.js";
-import { Template } from "./template.js";
-import { PlayerCard } from "./playerCard.js";
-import { SongCard } from "./songCard.js";
-import { Plugins } from "./plugins.js";
-import { Parameters } from "./parameters.js";
+import { GlobalVariable } from "./global";
+import { Template } from "./template";
+import { PlayerCard } from "./playerCard";
+import { SongCard } from "./songCard";
+import { Plugins } from "./plugins";
+import { Parameters } from "./parameters";
 
 export class Setup {
 
@@ -24,7 +24,7 @@ export class Setup {
     ////////////////////////
     // PROTECTED VARIABLE //
     ////////////////////////
-    protected skinUrl: string = "./skins/setup/";
+    protected skinUrl: string = "/skins/setup/";
 
     constructor() {
         this._template = new Template();
